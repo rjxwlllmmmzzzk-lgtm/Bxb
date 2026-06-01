@@ -1,13 +1,15 @@
 {
-  "name": "shadow-bot",
+  "name": "shadow-telethon-bot",
   "version": "1.0.0",
-  "description": "Shadow Bot for Telegram",
+  "description": "Shadow Bot with Telethon",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
     "telegraf": "^4.15.3",
+    "telegram": "^2.0.9",
+    "input": "^1.0.1",
     "express": "^4.18.2"
   }
 }
